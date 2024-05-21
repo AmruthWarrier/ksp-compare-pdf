@@ -50,6 +50,10 @@ def find_most_similar(input_pdf_path, stored_pdf_folder):
 
     return most_similar_pdf
 
+@app.route('/', methods=['GET'])
+def home():
+    return jsonify({"message": "hello"}), 200
+
 @app.route('/compare_pdfs', methods=['POST'])
 def compare_pdfs():
     if 'file' not in request.files:

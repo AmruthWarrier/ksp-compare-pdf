@@ -74,5 +74,5 @@ def compare_pdfs():
     else:
         return jsonify({"error": "No similar PDF found"}), 404
 
-if __name__ == '_main_':
+if __name__ == '__main__':
     app.run(debug=True)

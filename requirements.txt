@@ -7,3 +7,4 @@ Flask
 PyPDF2
 gensim==4.3.2
 scipy==1.12.0
+flask_cors

@@ -4,8 +4,10 @@ import PyPDF2
 from gensim import corpora, similarities, models
 from gensim.utils import simple_preprocess
 from gensim.parsing.preprocessing import STOPWORDS
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 # Function to extract text from a PDF file
 def extract_text_from_pdf(pdf_path):

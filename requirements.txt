@@ -6,3 +6,4 @@ dominate==2.5.2
 Flask
 PyPDF2
 gensim==4.3.2
+scipy

@@ -1,3 +1,3 @@
-Flask==2.0.2
-PyPDF2==1.26.0
-gensim==4.1.2
+Flask
+PyPDF2
+gensim==4.3.2

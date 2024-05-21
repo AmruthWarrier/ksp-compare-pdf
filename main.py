@@ -5,7 +5,7 @@ from gensim import corpora, similarities, models
 from gensim.utils import simple_preprocess
 from gensim.parsing.preprocessing import STOPWORDS
 
-app = Flask(_name_)
+app = Flask(__name__)
 
 # Function to extract text from a PDF file
 def extract_text_from_pdf(pdf_path):

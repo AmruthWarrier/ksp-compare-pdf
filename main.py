@@ -68,7 +68,7 @@ def compare_pdfs():
     input_pdf_path = "/tmp/input_pdf.pdf"
     file.save(input_pdf_path)
 
-    stored_pdf_folder = "stored_pdfs"
+    stored_pdf_folder = "/stored_pdfs"
 
     most_similar_pdf = find_most_similar(input_pdf_path, stored_pdf_folder)
     if most_similar_pdf:
